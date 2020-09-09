@@ -1,0 +1,207 @@
+
+
+article{
+    position: absolute;
+    background-color:white;
+    width:100%;
+    height:1200px;
+    font-size:17px;
+}
+
+
+
+body{
+    background-color:rgb(168, 160, 42);
+}
+
+h1{
+    color:black;
+    font-size:40px;
+}
+
+
+
+
+
+#menu{
+    margin: auto;
+    width:1000px;
+}
+
+ul, ol{
+    list-style:none;
+}
+
+
+.menu li a{
+    position: relative;
+    right:165px;
+    background-color:white;
+    text-decoration:none;
+    color:black;
+    padding:10px;
+    display: block;
+    font-size:19px;
+}
+
+.menu li a:hover{
+    background-color: rgb(67, 0, 77);
+}
+
+.menu > li{
+    float: left;
+}
+
+.menu li ul{
+    display:none;
+    position: absolute;
+    min-width:140px;
+}
+
+.server1{
+    margin:10px;
+    padding:10px;
+}
+
+
+/* Parrafos*/
+
+.P1{
+    position: absolute;
+    left:6%;
+    padding:10px;
+    width:300px;
+}
+
+.BotonDeEnvio{
+    padding:10px;
+    background-color: rgb(255, 174, 0);
+    width:400px;
+    height:40px;
+    text-decoration:none;
+    font-size:40px;
+    color:black;
+    border-radius:30px;
+}
+
+.BotonDeEnvio:hover{
+    background-color: rgb(209, 73, 9);
+}
+.P2{
+    position: relative;
+    left:60%;
+    padding:10px;
+    width:300px;
+}
+.P3{
+    position: relative;
+    left:10%;
+    padding:10px;
+    width:300px;
+ }
+ .P4{
+    position: relative;
+    left:10%;
+    bottom:60px;
+    padding:10px;
+    width:300px;
+ }
+ .P5{
+    position: relative;
+    left:45%;
+    bottom:410px;
+    padding:10px;
+    width:300px;
+}
+
+.P3P4P5{
+    height:330px;
+}
+
+
+.col1{
+    position: absolute;
+    right:320px;
+    width:80px;
+    top:40px;
+}
+
+.col2{
+    position: absolute;
+    right:320px;
+    width:80px;
+    top:60px;
+}
+
+.col20{
+    position: absolute;
+    right:320px;
+    width:80px;
+    bottom:20px;
+}
+ 
+
+
+
+
+@media screen and (max-width:800px){
+    *{margin:0;
+        padding:0;
+    }
+
+    body{
+        width:100%;
+    }
+
+    img{
+        width:200px;
+    }
+    .tumulo1, .tumulo2{
+        background:white;
+        height:100%;
+    }
+
+    .tumulo11{
+        position: relative;
+        left:0;
+        top:0px;
+        color:black;
+    }
+
+    #menu{
+        margin: auto;
+        width:680px;
+    }
+
+    .menu li a{
+        position: relative;
+        right:10px;
+        background-color:rgb(136, 46, 11);
+        text-decoration:none;
+        color:black;
+        padding:10px;
+        display: block;
+        font-size:12px;
+    }
+    
+    .menu li a:hover{
+        background-color: rgb(67, 0, 77);
+    }
+    
+    .menu > li{
+        float: left;
+    }
+    
+    .menu li ul{
+        display:none;
+        position: absolute;
+        min-width:140px;
+    }
+
+}
+
+
+
+
+
+

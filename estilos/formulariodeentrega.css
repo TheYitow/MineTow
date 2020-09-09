@@ -1,0 +1,46 @@
+
+
+aside, article, section, header, footer{
+    display: block;
+    margin:0;
+    padding:0;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background:white;
+}
+
+/*FORMULARIO*/
+.user_info{
+    position: absolute;
+    left:400px;
+    top:150px;
+    background:rgb(19, 87, 143);
+    width:300px;
+    font-size:20px;
+    padding:5px;
+}
+/*FORMULARIO*/
+
+/*LETRA*/
+.letra{
+    position: absolute;
+    left:400px;
+    color: rgb(197, 118, 27);
+}
+.letra_e{
+    position:absolute;
+    left:400px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/*LETRA*/
+
+/**/
+textarea{
+    height:60PX;
+}

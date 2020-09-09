@@ -1,0 +1,168 @@
+
+
+aside, article, section, header, footer{
+    display: block;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+body{
+    background-color:rgb(146, 39, 39);
+}    
+
+
+h1{
+    color:black;
+    font-size:40px;
+}
+
+
+.tumulo1{
+    height:2000px;
+    width:50%;
+    float:left;
+    background-color:white;
+}
+
+.tumulo2{
+    height:2000px;
+    width:50%;
+    float:left;
+    background-color:white;
+}
+
+.tumulo1, .tumulo2{
+    background:white;
+    height:100%;
+}
+
+
+.tumulo11{
+    position: relative;
+    left:300px;
+    bottom:230px;
+    color:black;
+}
+
+
+
+footer{
+    height:40px;
+    background:white;
+    width:100%;
+    float: left;
+}
+img{
+    width:300px;
+}
+
+
+
+#menu{
+    margin: auto;
+    width:1000px;
+}
+
+ul, ol{
+    list-style:none;
+}
+
+
+.menu li a{
+    position: relative;
+    right:165px;
+    background-color:white;
+    text-decoration:none;
+    color:black;
+    padding:10px;
+    display: block;
+    font-size:19px;
+}
+
+.menu li a:hover{
+    background-color: rgb(67, 0, 77);
+}
+
+.menu > li{
+    float: left;
+}
+
+.menu li ul{
+    display:none;
+    position: absolute;
+    min-width:140px;
+}
+
+.server1{
+    margin:10px;
+    padding:10px;
+}
+
+/*BOTONES*/
+.Boton{
+    width:400px;
+}
+/*BOTONES*/
+
+
+
+
+
+@media screen and (max-width:800px){
+    *{margin:0;
+        padding:0;
+    }
+
+    body{
+        width:100%;
+    }
+
+    img{
+        width:200px;
+    }
+    .tumulo1, .tumulo2{
+        background:white;
+        height:100%;
+    }
+
+    .tumulo11{
+        position: relative;
+        left:0;
+        top:0px;
+        color:black;
+    }
+
+    #menu{
+        margin: auto;
+        width:680px;
+    }
+
+    .menu li a{
+        position: relative;
+        right:10px;
+        background-color:rgb(196, 167, 167);
+        text-decoration:none;
+        color:black;
+        padding:10px;
+        display: block;
+        font-size:12px;
+    }
+    
+    .menu li a:hover{
+        background-color: rgb(67, 0, 77);
+    }
+    
+    .menu > li{
+        float: left;
+    }
+    
+    .menu li ul{
+        display:none;
+        position: absolute;
+        min-width:140px;
+    }
+
+}

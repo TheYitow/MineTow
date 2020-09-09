@@ -1,0 +1,73 @@
+aside, article, section, header, footer{
+    display: block;
+    margin:0;
+    padding:0;
+}
+*{
+    margin:0;
+    padding:0;
+}
+
+/*body*/
+.Todo{
+    background:white;
+}
+
+/*Id*/
+#header{
+    width:100%;
+    font-family:cursive;
+    background-color: rgb(51, 113, 167);
+    
+}
+
+/*Enlaces*/
+.regresar {
+    font-size:30px;
+    text-decoration:none;
+    list-style:none;
+    background-color:rgb(146, 39, 39);
+    color:rgb(255, 174, 0);
+    padding:2px;
+}
+
+/*ASIDE*/
+.section_1{
+    padding:10px;
+    width:400px;
+    background-color:rgb(192, 171, 171);
+}
+
+.section_2{
+    padding:10px;
+    width:400px;
+    background-color:rgb(192, 171, 171); 
+}
+/*ASIDE*/
+
+/*Discord*/
+#Discord {
+    position: absolute;
+    left:55%;
+    padding:4px;
+    width:200px;
+    background-color: aqua;
+    font-size:50px;
+    list-style:none;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+
+/*Discord*/
+
+
+
+
+
+
+
+
+

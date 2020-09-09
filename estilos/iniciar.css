@@ -1,0 +1,19 @@
+body{
+    background:url(imagenes/numero1.jpg) no-repeat center top;
+    background-size:cover;
+    height:100vh;
+}
+
+
+
+
+div{
+    position: relative;
+    top:200px;
+    width:190px;
+    height:100px;
+    border:10px solid #510097;
+    background:#7D2EC2;
+    left:500px;
+}
+

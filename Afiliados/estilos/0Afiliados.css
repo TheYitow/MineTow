@@ -1,0 +1,31 @@
+body{
+    background:url(imagenes/numero1.jpg) no-repeat center top;
+    background-size:cover;
+    height:100vh;
+}
+
+h1{
+    color:white;
+    position: relative;
+    font-size:40px;
+}
+
+h3{
+    color:white;
+    font-size: 30px;
+    position: relative;
+    width:600px;
+}
+
+a{
+    color: aqua;
+}
+
+@media screen and (max-width:800px){
+    h3{
+        position: relative;
+        left:5px;
+        width:100%;
+        font-size:20px;
+    }
+}

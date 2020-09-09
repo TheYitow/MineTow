@@ -1,0 +1,103 @@
+*{
+    padding:0;
+    margin:0
+}
+
+body{
+    background:url(imagenes/numero1.jpg) no-repeat center top;
+    background-size:cover;
+    height:100vh;
+    width:auto;
+}
+
+h1{
+    font-size:70px;
+    color:white;
+}
+
+.parafo{
+    background-color: rgb(109, 15, 117);
+    font-size:20px;
+    position: relative;
+    color:white;
+    width:50%;
+    left:400px;
+    bottom:100px;
+    
+}
+
+a{
+    color:white;
+}
+
+
+
+nav{
+    position: relative;
+    left:10px;
+    list-style:none;
+    right:40px;
+    font-size:30px;
+    text-decoration:none;
+    box-sizing:border-box;
+    background:rgb(119, 0, 255);
+    width:220px;
+    
+    
+}
+
+
+
+
+.todo{
+    max-width:1000px;
+    width:100%;
+    margin: 0 ;
+    padding:0;
+    overflow:hidden;
+}
+.hr{
+    color:white;
+}
+
+
+
+
+
+
+@media screen and (max-width:800px){
+    *{
+        margin:0;
+        padding:0;
+    }
+
+
+    h1{
+        font-size:30px;
+    }
+    h3{
+        position: relative;
+        top:20px;
+    }
+    
+    .parafo{
+        position: relative;
+        left:5px;
+        font-size:10px;
+        width:400px;
+        top:30px;
+    }
+  
+    
+
+    
+
+
+}
+
+
+
+  
+
+
+
